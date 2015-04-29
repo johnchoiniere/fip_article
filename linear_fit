@@ -1,0 +1,1 @@
+fit <- glm(diff~K_per_9+BB_per_9+K_per_BB+HR_per_9+WHIP+BABIP+LOB_pct+GB_per_FB+LD_pct+GB_pct+FB_pct+IFFB_pct+HR_per_FB+K_pct+BB_pct+O.Swing_pct+Z.Swing_pct+Swing_pct+O.Contact_pct+Z.Contact_pct+Contact_pct+Zone_pct, data=d, family="gaussian")
